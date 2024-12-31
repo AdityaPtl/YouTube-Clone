@@ -11,7 +11,7 @@ import { User } from "firebase/auth";
 
 
 function NavBar() {
-  // Initialize user state
+  // Initialize user state 
   const [user, setUser] = useState<User | null>(null);
 
   useEffect(() => {

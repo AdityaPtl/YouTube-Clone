@@ -1,0 +1,22 @@
+[debug] [2024-12-31T04:12:06.169Z] ----------------------------------------------------------------------
+[debug] [2024-12-31T04:12:06.170Z] Command:       /home/aditya/.nvm/versions/node/v23.5.0/bin/node /home/aditya/.nvm/versions/node/v23.5.0/bin/firebase auth:import users.json --project clone-86960
+[debug] [2024-12-31T04:12:06.171Z] CLI Version:   13.29.1
+[debug] [2024-12-31T04:12:06.171Z] Platform:      linux
+[debug] [2024-12-31T04:12:06.171Z] Node Version:  v23.5.0
+[debug] [2024-12-31T04:12:06.171Z] Time:          Tue Dec 31 2024 15:12:06 GMT+1100 (Australian Eastern Daylight Time)
+[debug] [2024-12-31T04:12:06.171Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-12-31T04:12:06.174Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-12-31T04:12:06.175Z] > authorizing via signed-in user (aditya.patel8k@gmail.com)
+[debug] [2024-12-31T04:12:06.175Z] [iam] checking project clone-86960 for permissions ["firebase.projects.get","firebaseauth.users.create","firebaseauth.users.update"]
+[debug] [2024-12-31T04:12:06.175Z] Checked if tokens are valid: true, expires at: 1735621851446
+[debug] [2024-12-31T04:12:06.175Z] Checked if tokens are valid: true, expires at: 1735621851446
+[debug] [2024-12-31T04:12:06.176Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/clone-86960:testIamPermissions [none]
+[debug] [2024-12-31T04:12:06.176Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/clone-86960:testIamPermissions x-goog-quota-user=projects/clone-86960
+[debug] [2024-12-31T04:12:06.176Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/clone-86960:testIamPermissions {"permissions":["firebase.projects.get","firebaseauth.users.create","firebaseauth.users.update"]}
+[debug] [2024-12-31T04:12:07.229Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/clone-86960:testIamPermissions 200
+[debug] [2024-12-31T04:12:07.229Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/clone-86960:testIamPermissions {"permissions":["firebase.projects.get","firebaseauth.users.create","firebaseauth.users.update"]}
+[warn] ⚠  No hash algorithm specified. Password users cannot be imported. 
+[debug] [2024-12-31T04:12:07.230Z] Error: ENOENT: no such file or directory, stat 'users.json'
+[error] 
+[error] Error: An unexpected error has occurred.
